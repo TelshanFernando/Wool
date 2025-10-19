@@ -148,7 +148,7 @@ body {
 </div>
 
 <script>
-const heroImage = "images/background image.jpg";
+const heroImage = "background image.jpg";
 const heroSize = "cover";
 const heroPosition = "center";
 const hero = document.querySelector('.hero');
@@ -157,10 +157,10 @@ hero.style.setProperty('--hero-bg-size', heroSize);
 hero.style.setProperty('--hero-bg-position', heroPosition);
 
 const products = [
-  {id:1, name:"Wool Crop Top", price:3400, img:"images/IMG_0376.jpg"},
-  {id:2, name:"Wool Jacket", price:1500, img:"images/IMG_0371.jpg"},
-  {id:3, name:"Wool Flower Bouquet", price:3000, img:"images/IMG_0372.jpg"},
-  {id:4, name:"Wool Bandanna", price:1000, img:"images/IMG_0374.jpg"}
+  {id:1, name:"Wool Crop Top", price:3400, img:"IMG_0376.jpg"},
+  {id:2, name:"Wool Jacket", price:1500, img:"IMG_0371.jpg"},
+  {id:3, name:"Wool Flower Bouquet", price:3000, img:"IMG_0372.jpg"},
+  {id:4, name:"Wool Bandanna", price:1000, img:"IMG_0374.jpg"}
 ];
 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
