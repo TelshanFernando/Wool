@@ -318,7 +318,7 @@ cartCheckoutBtn.addEventListener('click',()=>{
   if(cart.length===0){ alert("Cart is empty!"); return; }
   let message = "Hello! I want to order:\n";
   cart.forEach(item=>{ message += `- ${item.name} (LKR ${item.price})\n`; });
-  const phone = "94773493595";
+  const phone = "94742627187";
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   window.open(url,"_blank");
 });
